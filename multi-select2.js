@@ -336,4 +336,4 @@ class MultiSelect2 {
   }
 }
 
-export default MultiSelect;
+export default MultiSelect2;
