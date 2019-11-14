@@ -1,6 +1,6 @@
 import Element from "./Element";
 
-class MultiSelect {
+class MultiSelect2 {
   constructor(element, config) {
     this._config = {...config};
     this._state = {

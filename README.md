@@ -1,4 +1,4 @@
-# SelectPure JavaScript component
+# MultiSelect2 JavaScript component
 
 
 ## Installation
@@ -6,19 +6,19 @@
 #### Yarn
 
 ```
-yarn add multi-select
+yarn add multi-select2
 ```
 
 ## Usage
 
 ```javascript
 //Import the SelectPure library
-import MultiSelect from "multi-select";
+import MultiSelect2 from "multi-select2";
 
 //Or directly include the bundled JavaScript on the webpage.
 <script src="bundle.min.js"></script>
 
-new MultiSelect(element, {
+new MultiSelect2(element, {
   options: [
     {
         label: 'London',

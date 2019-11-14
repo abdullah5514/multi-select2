@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 <head>
-    <title>MultiSelect example</title>
+    <title>MultiSelect2 example</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 <div>
-    <h1>MultiSelect</h1>
+    <h1>MultiSelect2</h1>
 
     <h3>Single choise Auto Complete:</h3>
     <div class="single-select"></div>
@@ -19,7 +19,7 @@
 </div>
 <script src="bundle.min.js"></script>
 <script>
-  var single = new MultiSelect(".single-select", {
+  var single = new MultiSelect2(".single-select", {
     options: [
       {
         label: "English",
@@ -63,7 +63,7 @@
     },
   });
   console.log(single);
-  var autocomplete = new MultiSelect(".autocomplete-select", {
+  var autocomplete = new MultiSelect2(".autocomplete-select", {
       options: [
         {
           label: "English",
