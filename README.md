@@ -12,7 +12,7 @@ yarn add multi-select2
 ## Usage
 
 ```javascript
-//Import the SelectPure library
+//Import the MultiSelect2 library
 import MultiSelect2 from "multi-select2";
 
 //Or directly include the bundled JavaScript on the webpage.
@@ -61,7 +61,7 @@ body {
     position: relative;
     transition: 0.2s;
     width: 100%;
-    height: 50px;
+    height: auto;
     border-radius: 6px;
     border: none;
     border: 1px solid #aaaaaa;
