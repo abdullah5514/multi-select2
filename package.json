@@ -1,6 +1,6 @@
 {
   "name": "multi-select2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "multi-select2.js",
   "description": "Auticomplete and multiple select library written in pure javascript",
   "author": {
